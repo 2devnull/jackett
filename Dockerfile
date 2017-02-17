@@ -8,7 +8,7 @@ RUN useradd -s /bin/bash user && \
         passwd -d user
 
 VOLUME /config
-EXPOSE 9117 9118
+EXPOSE 9117
 
 ADD services.conf /etc/supervisor/conf.d/
 ADD my_init /
