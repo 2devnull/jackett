@@ -2,7 +2,7 @@
 
 Docker image of [Jackett](https://github.com/Jackett/Jackett)
 
-Jackett is listening to port 9117 and Jackett Public to port 9118.
+Jackett is listening to port 9117.
 
 ## Environment variables
 
