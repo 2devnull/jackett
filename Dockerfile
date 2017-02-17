@@ -12,4 +12,5 @@ EXPOSE 9117
 
 ADD services.conf /etc/supervisor/conf.d/
 ADD my_init /
+RUN chmod 755 /my_init
 CMD ["/my_init"]
