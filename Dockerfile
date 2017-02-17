@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:jessie-slim
 
 ADD install.sh /
 RUN /install.sh && rm -f /install.sh
