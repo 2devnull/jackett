@@ -11,7 +11,7 @@ echo "deb http://download.mono-project.com/repo/debian wheezy-libjpeg62-compat m
 
 apt-get update
 
-apt-get install mono-complete
+apt-get -y install mono-complete
 apt-get -y upgrade
 apt-get -y install curl nano supervisor
 
