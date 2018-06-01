@@ -16,5 +16,5 @@ docker run -itd --name jackett -p 9117:9117 \
     -e PUID=$(id -u) \
     -e PGID=$(id -g) \
     -v /path/to/config:/config \
-    2devnull/jackett
+    wicadmin/jackett
 ```
